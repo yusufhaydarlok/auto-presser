@@ -35,6 +35,8 @@
             // 
             // AutoClicker
             // 
+            this.AutoClicker.FlatAppearance.BorderSize = 0;
+            this.AutoClicker.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AutoClicker.Location = new System.Drawing.Point(12, 12);
             this.AutoClicker.Name = "AutoClicker";
             this.AutoClicker.Size = new System.Drawing.Size(229, 23);
@@ -45,6 +47,8 @@
             // 
             // AutoKeyboardPresser
             // 
+            this.AutoKeyboardPresser.FlatAppearance.BorderSize = 0;
+            this.AutoKeyboardPresser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AutoKeyboardPresser.Location = new System.Drawing.Point(243, 12);
             this.AutoKeyboardPresser.Name = "AutoKeyboardPresser";
             this.AutoKeyboardPresser.Size = new System.Drawing.Size(229, 23);

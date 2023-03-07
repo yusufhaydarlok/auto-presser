@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace auto_presser
+namespace auto_presser.Navigation
 {
     public class NavigationControl
     {

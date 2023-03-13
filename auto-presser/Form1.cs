@@ -1,9 +1,17 @@
 using auto_presser.Navigation;
+using System.Runtime.InteropServices;
 
 namespace auto_presser
 {
     public partial class AutoPresser : Form
     {
+        public static extern void mouse_event(int dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
+
+        private const int LEFTUP = 0x0004;
+        private const int LEFTDOWN = 0x0002;
+        public int intervals = 0;
+        public bool click = false;
+
         NavigationControl navigationControl;
         NavigationButtons navigationButtons;
 
